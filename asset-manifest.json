@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/thebrandopediaUi/static/css/main.f369adaa.css",
+    "main.css": "/thebrandopediaUi/static/css/main.e65391ee.css",
     "main.js": "/thebrandopediaUi/static/js/main.ccd2aee7.js",
     "static/js/453.31d735e0.chunk.js": "/thebrandopediaUi/static/js/453.31d735e0.chunk.js",
     "index.html": "/thebrandopediaUi/index.html",
-    "main.f369adaa.css.map": "/thebrandopediaUi/static/css/main.f369adaa.css.map",
+    "main.e65391ee.css.map": "/thebrandopediaUi/static/css/main.e65391ee.css.map",
     "main.ccd2aee7.js.map": "/thebrandopediaUi/static/js/main.ccd2aee7.js.map",
     "453.31d735e0.chunk.js.map": "/thebrandopediaUi/static/js/453.31d735e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f369adaa.css",
+    "static/css/main.e65391ee.css",
     "static/js/main.ccd2aee7.js"
   ]
 }
