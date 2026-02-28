@@ -1,0 +1,49 @@
+.future-container{
+     height: 100%;
+     background-color: aliceblue;
+}
+
+.future-order-list{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.topic{
+     color: #000;
+     font-size: 20px;
+     font-weight: bold;
+     margin-left: 10px;
+     text-align: center;
+     margin-top: 20px;
+}
+
+.future-flex-container{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.flex-imageone{
+     height: 40px;
+     width: 100px;
+     margin-left: 10px;
+}
+
+.flex-imagetwo{
+     height: 80px;
+     width: 250px;
+     margin-left: 10px;
+}
+
+.future-image{
+     height: 440px;
+     width: 100%;
+}
+
+.future-content{
+     color: #000;
+     font-size: 20px;
+     font-family: 'roboto';
+     margin-left: 10px;
+}

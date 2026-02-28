@@ -1,0 +1,186 @@
+.customer-review-container{
+     height: 100%;
+     padding: 10px;
+     background-color: #ffffffff;
+}
+
+.customer-review{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+}
+
+.total-rating-count{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.total-rating-ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.form-total-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.total-rating-star{
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.review-button{
+    height: 45px;
+    width: 100%;
+    background-color: #2F2C7E;
+    color: #ffffffff;
+    font-family: 'roboto';
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.customer-total-reviews{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.total-review-container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.form-container{
+    background-color: #ffffffff;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0px 4px 16px 0px #bfbfbfbf;
+    margin-bottom: 20px;
+}
+
+.input-container{
+     height: 30px;
+     width: 300px;
+     color: #000;
+     border: 2px solid gray;
+     padding: 10px;
+     font-size: 15px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     border-radius: 10px;
+}
+
+.submit-btn{
+    height: 40px;
+    width: 120px;
+    background-color: #0b1323;
+    color: #ffffffff;
+    font-family: 'roboto';
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 0px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.user-intial {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.name{
+     color: #000;
+     font-family: 'roboto';
+     font-size: 18px;
+     margin-top: 20px;
+     margin-left: 15px;
+}
+
+.recommend{
+     color: #000;
+     font-family: 'roboto';
+     font-size: 15px;
+}
+
+.flex-name{
+    display: flex;
+    align-items: center;
+}
+
+.star-flex{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.topick{
+     color: #000;
+     font-family: 'roboto';
+     font-size: 25px;
+}
+
+.review{
+     color: #000;
+     font-family: 'roboto';
+     font-size: 20px;
+}
+
+.textarea-input-container{ 
+     color: #000000;
+     background-color: transparent;
+     font-size: 15px;
+     font-family: "roboto", sans-serif;
+     border: 2px solid grey;
+     margin-top: 10px;
+     margin-bottom: 15px;
+     border-radius: 5px;
+     padding: 5px;
+}
+
+.review-ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 450px;
+}
+
+.responsive-review-li{
+    padding: 20px;
+    background-color: #ffffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbfbf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.responsive-review{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}

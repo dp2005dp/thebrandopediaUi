@@ -1,0 +1,94 @@
+.fooder-container{
+     height: 100%;
+     margin-top: 10px;
+}
+
+
+.fooder-top-container{
+     height: 100%;
+     padding: 50px;
+}
+
+.foder-heading{
+     color: #000;
+     font-family: 'roboto';
+     font-size: 25px;
+     font-weight: bold;
+     text-align: center;
+}
+
+.text{
+     color: #000;
+     font-family: 'roboto';
+     font-size: 18px;
+}
+
+.footer-ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-li{
+   list-style-type: none;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.fooder-bottom-container{
+    height: 100%;
+    padding: 30px;
+    background-color: #f7efe6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.social-iamge{
+     height: 80px;
+     width: 150px;
+}
+
+.social-content{
+    color: #000;
+    font-family: 'roboto';
+    font-size: 15px;
+    text-align: center;
+}
+.social-icons{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    
+}
+
+.social-icons-flex{
+     display: flex;
+     align-items: center;
+}
+
+.history{
+    background: linear-gradient(180deg, #0a1220 0%, #0b1323 50%,#0c1628 100%);
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.text-dec{
+    text-decoration: underline;
+}
+
+.email{
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #0a1220;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
