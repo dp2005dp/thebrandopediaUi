@@ -19,7 +19,7 @@ const cusReviewDetais = [
               reviTopic : 'Worth the Price',
               review : 'The design looks premium and performance is smooth. Totally worth the price and delivery was also fast.',
               createAt : 'just now',
-              rating : 4,
+              rating : 3,
     },
     {
               id : 3,
@@ -27,34 +27,34 @@ const cusReviewDetais = [
               reviTopic : 'Highly Recommended',
               review : 'Very useful product with great features. Customer support is responsive and overall experience is excellent.',
               createAt : 'just now',
-              rating : 4,
+              rating : 5,
     }
 ]
 
 const totalrating = [
      {
         id:0,
-        star : 'iconsAndlogs/21.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/21.svg',
         alt:'rating'
      },
       {
         id:1,
-        star : 'iconsAndlogs/21.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/21.svg',
         alt:'rating'
      },
       {
         id:2,
-        star : 'iconsAndlogs/21.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/21.svg',
         alt:'rating'
      },
       {
         id:3,
-        star : 'iconsAndlogs/21.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/21.svg',
         alt:'rating'
      },
       {
         id:4,
-        star : 'iconsAndlogs/6.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/6.svg',
         alt:'rating'
      }
 ]
@@ -62,36 +62,36 @@ const totalrating = [
 const customerRating = [
      {
         id:0,
-        fullStar : 'iconsAndlogs/21.svg',
-        star : 'iconsAndlogs/20.svg',
+        fullStar : '/thebrandopediaUi/iconsAndlogs/21.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/20.svg',
         alt:'rating',
         isRating : false,
      },
       {
         id:1,
-        fullStar : 'iconsAndlogs/21.svg',
-        star : 'iconsAndlogs/20.svg',
+        fullStar : '/thebrandopediaUi/iconsAndlogs/21.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/20.svg',
         alt:'rating',
         isRating : false,
      },
       {
         id:2,
-        fullStar : 'iconsAndlogs/21.svg',
-        star : 'iconsAndlogs/20.svg',
+        fullStar : '/thebrandopediaUi/iconsAndlogs/21.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/20.svg',
         alt:'rating',
         isRating : false,
      },
       {
         id:3,
-        fullStar : 'iconsAndlogs/21.svg',
-        star : 'iconsAndlogs/20.svg',
+        fullStar : '/thebrandopediaUi/iconsAndlogs/21.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/20.svg',
         alt:'rating',
         isRating : false,
      },
       {
         id:4,
-        fullStar : 'iconsAndlogs/21.svg',
-        star : 'iconsAndlogs/20.svg',
+        fullStar : '/thebrandopediaUi/iconsAndlogs/21.svg',
+        star : '/thebrandopediaUi/iconsAndlogs/20.svg',
         alt:'rating',
         isRating : false,
      }
@@ -242,7 +242,7 @@ const CustomerReviews = () => {
                                       {[...Array(eachReview.rating)].map((_, index) => (
                                     <img
                                     key={index}
-                                    src="iconsAndlogs/21.svg"
+                                    src="/thebrandopediaUi/iconsAndlogs/21.svg"
                                     className="total-rating-star"
                                     alt="cusRating"
                                     />

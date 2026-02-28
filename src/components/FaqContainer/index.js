@@ -78,7 +78,7 @@ const FaqContainer  = () => {
                              <li id={eachItem.id}>
                                  <div className='faq-flex-container' onClick={() => onShowAnswer(eachItem.id)}>
                                      <h1 className='faq-question'>{eachItem.question}</h1>
-                                      <img src="iconsAndlogs/17.svg" className={`faq-arrow ${rotateArrow}`} alt="faq icons" />
+                                      <img src="/thebrandopediaUi/iconsAndlogs/17.svg" className={`faq-arrow ${rotateArrow}`} alt="faq icons" />
                                      
                                  </div>
                                   

@@ -2,69 +2,64 @@ import "./index.css";
 
 
 const fiveSachets = [
-      {
-        id: 1,
-        image: "iconsAndlogs/7.svg",
-        alt: "sachet1",
-        sachet : '15g Protein',
-        link:""
-      },
-      {
-        id: 2,
-        image: "iconsAndlogs/8.svg",
-        alt: "sachet2",
-        sachet : '2 Espresso shots',
-        link:""
-      },
-      {
-        id: 3,
-        image: "iconsAndlogs/9.svg",
-        alt: "sachet3",
-        sachet : 'No Added Sugar',
-        link:""
-      },
-      {
-        id: 4,
-        image: "iconsAndlogs/10.svg",
-        alt: "sachet4",
-        sachet : 'Under 100 Calories',
-        link:""
-      },
-      {
-        id: 5,
-        image: "iconsAndlogs/11.svg",
-        alt: "sachet5",
-        sachet : 'faq',
-        link:""
-      }
-]
+  {
+    id: 1,
+    image: "/thebrandopediaUi/iconsAndlogs/7.svg",
+    alt: "sachet1",
+    sachet: "15g Protein",
+  },
+  {
+    id: 2,
+    image: "/thebrandopediaUi/iconsAndlogs/8.svg",
+    alt: "sachet2",
+    sachet: "2 Espresso shots",
+  },
+  {
+    id: 3,
+    image: "/thebrandopediaUi/iconsAndlogs/9.svg",
+    alt: "sachet3",
+    sachet: "No Added Sugar",
+  },
+  {
+    id: 4,
+    image: "/thebrandopediaUi/iconsAndlogs/10.svg",
+    alt: "sachet4",
+    sachet: "Under 100 Calories",
+  },
+  {
+    id: 5,
+    image: "/thebrandopediaUi/iconsAndlogs/11.svg",
+    alt: "sachet5",
+    sachet: "FAQ",
+  },
+];
 
 
 const similarProducts = [
     {
         id: 1,
-        image: "/images/10.jpeg",
+        image: "/thebrandopediaUi/images/10.jpeg",
         alt: "similar product1",
         name : 'classic',
         isBestSeller : false,
     },
     {
         id: 2,
-        image: "/images/11.jpeg",
+        image: "/thebrandopediaUi/images/11.jpeg",
         alt: "similar product2",
         name : 'vanilla',
         isBestSeller : false,
     },
     {
         id: 3,
-        image: "/images/12.jpeg",
+        image: "/thebrandopediaUi/images/12.jpeg",
         alt: "similar product3",
         name : 'hazelnut',
         isBestSeller : false,
     },
     {
         id: 4,
-        image: "/images/13.jpeg",
+        image: "/thebrandopediaUi/images/13.jpeg",
         alt: "similar product4",
         name : 'assorted',
         isBestSeller : true,
@@ -82,11 +77,11 @@ const ProductDetails = () => (
         <h1 className="main-heading">Classic Protein Cold Coffee Mix</h1>
 
         <div className="flex-container">
-            <img src="iconsAndlogs/21.svg" alt="rating" className="rating" />
-             <img src="iconsAndlogs/21.svg" alt="rating" className="rating" />
-              <img src="iconsAndlogs/21.svg" alt="rating" className="rating" />
-              <img src="iconsAndlogs/21.svg" alt="rating" className="rating" />
-               <img src="iconsAndlogs/5.svg" alt="rating" className="rating" />
+            <img src="/thebrandopediaUi/iconsAndlogs/21.svg" alt="rating" className="rating" />
+             <img src="/thebrandopediaUi/iconsAndlogs/21.svg" alt="rating" className="rating" />
+              <img src="/thebrandopediaUi/iconsAndlogs/21.svg" alt="rating" className="rating" />
+              <img src="/thebrandopediaUi/iconsAndlogs/21.svg" alt="rating" className="rating" />
+               <img src="/thebrandopediaUi/iconsAndlogs/5.svg" alt="rating" className="rating" />
                <p>(4)</p>
         </div>
       
@@ -142,7 +137,7 @@ const ProductDetails = () => (
          
        </div>
         <div className="othe-news">
-            <img src="/images/Container-6.png" className="othe-news-image" alt="Startup India Magazine" />
+            <img src="/thebrandopediaUi//images/Container-6.png" className="othe-news-image" alt="Startup India Magazine" />
             <div>
                 <h1>Startup India Magazine is a leading platform that features startup success stories.</h1>
             </div>
